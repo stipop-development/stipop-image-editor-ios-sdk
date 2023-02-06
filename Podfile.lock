@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.6.4)
+  - StipopImageEditorUIKit (0.0.2)
+
+DEPENDENCIES:
+  - Alamofire (= 5.6.4)
+  - StipopImageEditorUIKit (= 0.0.2)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - StipopImageEditorUIKit
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  StipopImageEditorUIKit: a2c6c54ab8bc8d77bcb99d64f04422cbf6ac1dfe
+
+PODFILE CHECKSUM: 77b3fb80ed7ac183dff5d6b0ba17ea3faf25cf74
+
+COCOAPODS: 1.11.3

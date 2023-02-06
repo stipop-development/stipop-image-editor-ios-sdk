@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043544404D385FB31B5AC3CE /* Pods_StipopImageEditorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B4E8393F47FDA6185D5A54 /* Pods_StipopImageEditorDemo.framework */; };
+		5FD4401A298FBE4A002E2DA5 /* StipopImageEditor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FD44004298FBE49002E2DA5 /* StipopImageEditor.plist */; };
+		5FD4401B298FBE4A002E2DA5 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD44006298FBE49002E2DA5 /* UIResponder+Extension.swift */; };
+		5FD4401C298FBE4A002E2DA5 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD44007298FBE49002E2DA5 /* UIColor+Extension.swift */; };
+		5FD4401D298FBE4A002E2DA5 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD44008298FBE49002E2DA5 /* UIViewController+Extension.swift */; };
+		5FD4401E298FBE4A002E2DA5 /* DemoSAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD4400A298FBE49002E2DA5 /* DemoSAuthManager.swift */; };
+		5FD4401F298FBE4A002E2DA5 /* DemoSAuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD4400B298FBE49002E2DA5 /* DemoSAuthAPI.swift */; };
+		5FD44020298FBE4A002E2DA5 /* DemoSAuthAPI_access_token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD4400C298FBE49002E2DA5 /* DemoSAuthAPI_access_token.swift */; };
+		5FD44021298FBE4A002E2DA5 /* SESafeAreaInsetUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD4400E298FBE49002E2DA5 /* SESafeAreaInsetUtil.swift */; };
+		5FD44022298FBE4A002E2DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD4400F298FBE49002E2DA5 /* Assets.xcassets */; };
+		5FD44023298FBE4A002E2DA5 /* SEColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD44011298FBE49002E2DA5 /* SEColor.swift */; };
+		5FD44024298FBE4A002E2DA5 /* BeforeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD44014298FBE49002E2DA5 /* BeforeViewController.swift */; };
+		5FD44025298FBE4A002E2DA5 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD44016298FBE49002E2DA5 /* MainController.swift */; };
+		5FD44026298FBE4A002E2DA5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD44017298FBE49002E2DA5 /* MainView.swift */; };
+		5FD44027298FBE4A002E2DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD44018298FBE49002E2DA5 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0345AB32272FB80D007B20F9 /* StipopImageEditorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StipopImageEditorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B4E8393F47FDA6185D5A54 /* Pods_StipopImageEditorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StipopImageEditorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FAFFCB42990AF2100DEF2CF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD44004298FBE49002E2DA5 /* StipopImageEditor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StipopImageEditor.plist; sourceTree = "<group>"; };
+		5FD44006298FBE49002E2DA5 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
+		5FD44007298FBE49002E2DA5 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		5FD44008298FBE49002E2DA5 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		5FD4400A298FBE49002E2DA5 /* DemoSAuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSAuthManager.swift; sourceTree = "<group>"; };
+		5FD4400B298FBE49002E2DA5 /* DemoSAuthAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSAuthAPI.swift; sourceTree = "<group>"; };
+		5FD4400C298FBE49002E2DA5 /* DemoSAuthAPI_access_token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSAuthAPI_access_token.swift; sourceTree = "<group>"; };
+		5FD4400E298FBE49002E2DA5 /* SESafeAreaInsetUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SESafeAreaInsetUtil.swift; sourceTree = "<group>"; };
+		5FD4400F298FBE49002E2DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FD44011298FBE49002E2DA5 /* SEColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEColor.swift; sourceTree = "<group>"; };
+		5FD44014298FBE49002E2DA5 /* BeforeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeforeViewController.swift; sourceTree = "<group>"; };
+		5FD44016298FBE49002E2DA5 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		5FD44017298FBE49002E2DA5 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5FD44018298FBE49002E2DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65133763B85A0CBF7E73BDAA /* Pods-StipopImageEditorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StipopImageEditorDemo.release.xcconfig"; path = "Target Support Files/Pods-StipopImageEditorDemo/Pods-StipopImageEditorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B9942377921D0F91295186C2 /* Pods-StipopImageEditorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StipopImageEditorDemo.debug.xcconfig"; path = "Target Support Files/Pods-StipopImageEditorDemo/Pods-StipopImageEditorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0345AB2F272FB80D007B20F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043544404D385FB31B5AC3CE /* Pods_StipopImageEditorDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0345AB29272FB80D007B20F9 = {
+			isa = PBXGroup;
+			children = (
+				5FD44003298FBE49002E2DA5 /* StipopImageEditorDemo */,
+				0345AB33272FB80D007B20F9 /* Products */,
+				5FD44029298FC27B002E2DA5 /* Frameworks */,
+				D23487349B4D140E7C797E3E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0345AB33272FB80D007B20F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0345AB32272FB80D007B20F9 /* StipopImageEditorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FD44003298FBE49002E2DA5 /* StipopImageEditorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5FD44004298FBE49002E2DA5 /* StipopImageEditor.plist */,
+				5FD44005298FBE49002E2DA5 /* Extension */,
+				5FD44009298FBE49002E2DA5 /* StipopAuth */,
+				5FD4400D298FBE49002E2DA5 /* Util */,
+				5FD4400F298FBE49002E2DA5 /* Assets.xcassets */,
+				5FD44010298FBE49002E2DA5 /* Constant */,
+				5FD44012298FBE49002E2DA5 /* View */,
+				5FD44018298FBE49002E2DA5 /* AppDelegate.swift */,
+				5FAFFCB42990AF2100DEF2CF /* Info.plist */,
+			);
+			path = StipopImageEditorDemo;
+			sourceTree = "<group>";
+		};
+		5FD44005298FBE49002E2DA5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5FD44006298FBE49002E2DA5 /* UIResponder+Extension.swift */,
+				5FD44007298FBE49002E2DA5 /* UIColor+Extension.swift */,
+				5FD44008298FBE49002E2DA5 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5FD44009298FBE49002E2DA5 /* StipopAuth */ = {
+			isa = PBXGroup;
+			children = (
+				5FD4400A298FBE49002E2DA5 /* DemoSAuthManager.swift */,
+				5FD4400B298FBE49002E2DA5 /* DemoSAuthAPI.swift */,
+				5FD4400C298FBE49002E2DA5 /* DemoSAuthAPI_access_token.swift */,
+			);
+			path = StipopAuth;
+			sourceTree = "<group>";
+		};
+		5FD4400D298FBE49002E2DA5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5FD4400E298FBE49002E2DA5 /* SESafeAreaInsetUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		5FD44010298FBE49002E2DA5 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				5FD44011298FBE49002E2DA5 /* SEColor.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		5FD44012298FBE49002E2DA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5FD44013298FBE49002E2DA5 /* Before */,
+				5FD44015298FBE49002E2DA5 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5FD44013298FBE49002E2DA5 /* Before */ = {
+			isa = PBXGroup;
+			children = (
+				5FD44014298FBE49002E2DA5 /* BeforeViewController.swift */,
+			);
+			path = Before;
+			sourceTree = "<group>";
+		};
+		5FD44015298FBE49002E2DA5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5FD44016298FBE49002E2DA5 /* MainController.swift */,
+				5FD44017298FBE49002E2DA5 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5FD44029298FC27B002E2DA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39B4E8393F47FDA6185D5A54 /* Pods_StipopImageEditorDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23487349B4D140E7C797E3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9942377921D0F91295186C2 /* Pods-StipopImageEditorDemo.debug.xcconfig */,
+				65133763B85A0CBF7E73BDAA /* Pods-StipopImageEditorDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0345AB31272FB80D007B20F9 /* StipopImageEditorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0345AB46272FB80F007B20F9 /* Build configuration list for PBXNativeTarget "StipopImageEditorDemo" */;
+			buildPhases = (
+				E092229594CDC0E8F75F068E /* [CP] Check Pods Manifest.lock */,
+				0345AB2E272FB80D007B20F9 /* Sources */,
+				0345AB2F272FB80D007B20F9 /* Frameworks */,
+				0345AB30272FB80D007B20F9 /* Resources */,
+				52F64773D1806283667902DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StipopImageEditorDemo;
+			productName = StipopDemo;
+			productReference = 0345AB32272FB80D007B20F9 /* StipopImageEditorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0345AB2A272FB80D007B20F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					0345AB31272FB80D007B20F9 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 0345AB2D272FB80D007B20F9 /* Build configuration list for PBXProject "StipopImageEditorDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+				"zh-Hans",
+				"zh-Hant",
+				fr,
+				vi,
+				hi,
+			);
+			mainGroup = 0345AB29272FB80D007B20F9;
+			productRefGroup = 0345AB33272FB80D007B20F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0345AB31272FB80D007B20F9 /* StipopImageEditorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0345AB30272FB80D007B20F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD44022298FBE4A002E2DA5 /* Assets.xcassets in Resources */,
+				5FD4401A298FBE4A002E2DA5 /* StipopImageEditor.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52F64773D1806283667902DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StipopImageEditorDemo/Pods-StipopImageEditorDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StipopImageEditorDemo/Pods-StipopImageEditorDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StipopImageEditorDemo/Pods-StipopImageEditorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E092229594CDC0E8F75F068E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StipopImageEditorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0345AB2E272FB80D007B20F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD44027298FBE4A002E2DA5 /* AppDelegate.swift in Sources */,
+				5FD4401D298FBE4A002E2DA5 /* UIViewController+Extension.swift in Sources */,
+				5FD4401B298FBE4A002E2DA5 /* UIResponder+Extension.swift in Sources */,
+				5FD4401E298FBE4A002E2DA5 /* DemoSAuthManager.swift in Sources */,
+				5FD44020298FBE4A002E2DA5 /* DemoSAuthAPI_access_token.swift in Sources */,
+				5FD44025298FBE4A002E2DA5 /* MainController.swift in Sources */,
+				5FD4401F298FBE4A002E2DA5 /* DemoSAuthAPI.swift in Sources */,
+				5FD4401C298FBE4A002E2DA5 /* UIColor+Extension.swift in Sources */,
+				5FD44026298FBE4A002E2DA5 /* MainView.swift in Sources */,
+				5FD44024298FBE4A002E2DA5 /* BeforeViewController.swift in Sources */,
+				5FD44021298FBE4A002E2DA5 /* SESafeAreaInsetUtil.swift in Sources */,
+				5FD44023298FBE4A002E2DA5 /* SEColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0345AB44272FB80F007B20F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0345AB45272FB80F007B20F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0345AB47272FB80F007B20F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9942377921D0F91295186C2 /* Pods-StipopImageEditorDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StipopImageEditorDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "StipopImageEditor SDK Demo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stipop-image-editor-ios-sdk.StipopImageEditorDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0345AB48272FB80F007B20F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65133763B85A0CBF7E73BDAA /* Pods-StipopImageEditorDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StipopImageEditorDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "StipopImageEditor SDK Demo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stipop-image-editor-ios-sdk.StipopImageEditorDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0345AB2D272FB80D007B20F9 /* Build configuration list for PBXProject "StipopImageEditorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0345AB44272FB80F007B20F9 /* Debug */,
+				0345AB45272FB80F007B20F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0345AB46272FB80F007B20F9 /* Build configuration list for PBXNativeTarget "StipopImageEditorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0345AB47272FB80F007B20F9 /* Debug */,
+				0345AB48272FB80F007B20F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0345AB2A272FB80D007B20F9 /* Project object */;
+}
