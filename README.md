@@ -7,7 +7,7 @@
 [![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-green.svg?style=flat)](https://swift.org/package-manager/)
 [![CocoaPods compatible](https://img.shields.io/badge/CocoaPods-compatible-green.svg?style=flat)](https://cocoapods.org/pods/Stipop)
 
-Stipop Image Editor SDK provides over 150,000 .png and .gif stickers that can be easily integrated into mobile app. Bring fun to your mobile app with stickers loved by millions of users worldwide.
+Stipop Image Editor SDK provides over 150,000 stickers that can be easily integrated into mobile app. Bring fun to your mobile app with stickers loved by millions of users worldwide.
 
 ## Requirements
 
@@ -17,9 +17,7 @@ Stipop Image Editor SDK provides over 150,000 .png and .gif stickers that can be
 
 ## Getting started
 
-- Check [Stipop Docs](https://docs.stipop.io/en/sdk/ios/get-started/quick-start) for the comprehensive guide.
-
-- Sign up to [Stipop Dashboard](https://dashboard.stipop.io/create-application) to download StipopImageEditor.plist file.
+- Contact us to download StipopImageEditor.plist file. (tech-support@stipop.io)
 
 ## Try demo(for XCode 13.0+)
 
@@ -183,5 +181,4 @@ extension MainView: SEDelegate {
 
 ## Contact us
 
-- For more information, visit [Stipop Docs](https://docs.stipop.io/en/sdk/ios/get-started/quick-start).
 - Email us at tech-support@stipop.io if you need any help.
